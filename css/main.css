@@ -1,0 +1,162 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #E0E0E0;
+	font: bold 16px Helvetica, Arial, Sans-serif;
+}
+
+#clock {
+	background: #FFFFFF url('../img/dataArt-logo.png') no-repeat center 25% / 150px auto;
+	border: 5px solid #555555;
+	border-radius: 50%;
+	height: 300px;
+	margin: 100px auto;
+	position: relative;
+	width: 300px;
+}
+
+#clock:before {
+	background-color: #555555;
+	border-radius: 50%;
+	content: '';
+	bottom: 0;
+	height: 15px;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 15px;
+}
+
+.clock__number {
+	color: #555555;
+	height: 30px;
+	line-height: 30px;
+	position: absolute;
+	text-align: center;
+	width: 30px;
+}
+
+.clock__number--top-center {
+	left: 0;
+	margin: 0 auto;
+	right: 0;
+	top: 0;
+}
+
+.clock__number--center-right {
+	bottom: 0;
+	margin: auto 0;
+	right: 0;
+	top: 0;
+}
+
+.clock__number--center-left {
+	bottom: 0;
+	left: 0;
+	margin: auto 0;
+	top: 0;
+}
+
+.clock__number--bottom-center {
+	bottom: 0;
+	left: 0;
+	margin: 0 auto;
+	right: 0;
+}
+
+.clock__number--first {
+	right: 24%;
+	top: 8%;
+}
+
+.clock__number--second {
+	right: 7%;
+	top: 23%;
+}
+
+.clock__number--fourth {
+	bottom: 23%;
+	right: 7%;
+}
+
+.clock__number--fifth {
+	bottom: 8%;
+	right: 24%;
+}
+
+.clock__number--seventh {
+	bottom: 8%;
+	left: 24%;
+}
+
+.clock__number--eighth {
+	bottom: 23%;
+	left: 7%;
+}
+
+.clock__number--tenth {
+	left: 7%;
+	top: 23%;
+}
+
+.clock__number--eleventh {
+	left: 24%;
+	top: 8%;
+}
+
+.clock__point {
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.clock__point:before {
+	background-color: #555555;
+	border-radius: 5px;
+	bottom: 0;
+	content: '';
+	height: 50%;
+	left: 0;
+	margin: 0 auto;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.clock__point--hour {
+	height: 30%;
+	width: 30%;
+}
+
+.clock__point--hour:before {
+	background-color: #555555;
+	width: 8px;
+}
+
+.clock__point--minute {
+	height: 50%;
+	width: 50%;
+}
+
+.clock__point--minute:before {
+	background-color: #555555;
+	width: 4px;
+}
+
+.clock__point--second {
+	height: 70%;
+	width: 70%;
+}
+
+.clock__point--second:before {
+	background-color: #555555;
+	width: 2px;
+}
